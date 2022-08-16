@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav
+      class="navbar fixed-top navbar-expand-lg navbar navbar-dark"
+      style="background-color: black"
+    >
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link nav-link1" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link2" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#resume">Resume</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="page">
+      <section class="home_class" id="home">
+        <div id="home_intro">
+          <p>Hello there! I'm,</p>
+          <h3>josh<span style="color: #ceff1a">.</span>T</h3>
+          <p>A Web Developer</p>
+          <span
+            ><a href="mailto:tid2136141@gmail.com"
+              ><img src="./images/mail.svg" alt="" /></a
+            >tid2136141@gmail.com</span
+          >
+          <span
+            ><a href="tel:4802870835"><img src="./images/phone.svg" alt="" /></a
+            >480-287-0835</span
+          >
+        </div>
+        <div class="area">
+          <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </section>
+      <section class="about_class" id="about">
+        <div id="about_header">
+          <h3>About<span style="color: yellow">.</span></h3>
+          <p>
+            My name is Josh and I've always had a passion for building things
+            and watching things grow. I enjoy the process of drawing out plans
+            and seeing them come to life. I find there are a lot of similarities
+            between the preparation, execution and problem solving of
+            gardening/wood working, to those of Web Development.
+          </p>
+        </div>
+        <div class="about_articles">
+          <article class="articles">
+            <img src="./images/gardening.png" alt="" />
+            <h3>Gardening</h3>
+            <p>
+              I've always enjoyed making things grow. What interests me most is
+              the different needs for each plant and how they react to certain
+              variables. You can tell what a plant needs by understanding what
+              it's structure or it's leaves are telling you.
+            </p>
+          </article>
+          <article class="articles">
+            <img
+              src="./images/technology.png"
+              alt=""
+              width="48px"
+              heigh="48px"
+            />
+            <h3>Technology</h3>
+            <p>
+              I've always had an interest in technology, from wanting to build
+              my own PC, to finding interest in coding and wanting to build my
+              own website. I love to find out how things work and to use that
+              knowledge to build my own.
+            </p>
+          </article>
+          <article class="articles">
+            <img src="./images/hammer.png" alt="" width="48px" heigh="48px" />
+            <h3>Wood Works</h3>
+            <p>
+              Working with wood is also something I've always had an interest
+              in. After helping my family build a cabin at 13, I've had a knack
+              for wood works and created many different projects.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section class="projects_class" id="projects">
+        <div id="projects_header">
+          <h3>Projects<span style="color: #ceff1a">.</span></h3>
+        </div>
+        <div class="projects_list" id="project_scroll">
+          <div class="project1-card">
+            <div id="project1-header">
+              <p>Green Capz</p>
+            </div>
+            <div id="project_item1">
+              <img src="./images/greencapz-img.png" alt="" />
+              <div class="project_info1">
+                <p>
+                  Web Application created to render sensor data from a MongoDB
+                  database to create graphs and to display a user's current and
+                  past data.
+                </p>
+                <ul>
+                  <li><span style="color: white">Tools Used:</span></li>
+                  <li>
+                    <span style="color: #ceff1a">+</span>Node<span
+                      style="color: #ceff1a"
+                      >.</span
+                    >
+                  </li>
+                  <li>
+                    <span style="color: #ceff1a">+</span>Express<span
+                      style="color: #ceff1a"
+                      >.</span
+                    >
+                  </li>
+                  <li>
+                    <span style="color: #ceff1a">+</span>MongoDB<span
+                      style="color: #ceff1a"
+                      >.</span
+                    >
+                  </li>
+                  <li>
+                    <span style="color: #ceff1a">+</span>Pug<span
+                      style="color: #ceff1a"
+                      >.</span
+                    >
+                  </li>
+                  <li style="font-size: 10px">
+                    Try it! username: testing | password: password01
+                  </li>
+                </ul>
+                <span
+                  ><a href="#">Visit Green Capz</a> /
+                  <a href="https://github.com/tid213/greencapz-project"
+                    >Code</a
+                  ></span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project2_card">
+            <div id="project1-header">
+              <p>Gilbert Galz</p>
+            </div>
+            <div id="project_item2">
+              <img src="./images/ggg.png" alt="" />
+              <div class="project_info2">
+                <p>
+                  Website created for a small candy and gift basket business
+                  located in Gilbert, AZ. Multipage layout made to customers
+                  requirements.
+                </p>
+                <ul>
+                  <li><span style="color: white">Tools Used:</span></li>
+                  <li>
+                    <span style="color: #ceff1a">+</span>BlueHost<span
+                      style="color: #ceff1a"
+                      >.</span
+                    >
+                  </li>
+                  <li>
+                    <span style="color: #ceff1a">+</span>WordPress<span
+                      style="color: #ceff1a"
+                      >.</span
+                    >
+                  </li>
+                  <li>
+                    <span style="color: #ceff1a">+</span>GIMP<span
+                      style="color: #ceff1a"
+                      >.</span
+                    >
+                  </li>
+                </ul>
+                <a href="https://www.gilbertgalzgifts.net/"
+                  >Visit Gilbert Galz</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project3_card">
+            <div id="project1-header">
+              <p>Projects</p>
+            </div>
+            <div id="project_item3">
+              <img src="./images/git.png" alt="" width="200px" height="200px" />
+              <div class="project_info3">
+                <p style="color: white">
+                  Here is a list of some of my tutorials from The Odin Project.
+                </p>
+                <ul>
+                  <li><span style="color: white">Links:</span></li>
+                  <li>
+                    <span style="color: white">+</span
+                    ><a href="https://github.com/tid213/calculator"
+                      >Calculator</a
+                    >
+                    / <a href="https://tid213.github.io/calculator/">Code</a
+                    ><span style="color: black">.</span>
+                  </li>
+                  <li>
+                    <span style="color: white">+</span
+                    ><a href="https://tid213.github.io/etch-a-sketch/"
+                      >Etch-A-Sketch</a
+                    >
+                    / <a href="https://github.com/tid213/etch-a-sketch">Code</a
+                    ><span style="color: black">.</span>
+                  </li>
+                  <li>
+                    <span style="color: white">+</span
+                    ><a href="https://tid213.github.io/rock-paper-scissors/"
+                      >Rock/Paper/Scissors</a
+                    >
+                    /
+                    <a href="https://github.com/tid213/rock-paper-scissors"
+                      >Code</a
+                    ><span style="color: black">.</span>
+                  </li>
+                </ul>
+                <div class="github">
+                  <a href="https://github.com/tid213"
+                    ><img
+                      src="./images/github.svg"
+                      alt=""
+                      width="24px"
+                      height="24px"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project4_card">
+            <div id="project1-header">
+              <p>Sensor Controller</p>
+            </div>
+            <div id="project_item4">
+              <img src="./images/raspberrypi.jpg" alt="" />
+              <div class="project_info4">
+                <p>
+                  This project uses a RaspberryPi to take readings from sensors
+                  to send to a MongoDB database. Readings are displayed on a 7"
+                  LED display.
+                </p>
+                <ul>
+                  <li><span style="color: white">Tools Used:</span></li>
+                  <li>
+                    <span style="color: #ceff1a">+</span>RaspberryPi 3b<span
+                      style="color: #ceff1a"
+                      >.</span
+                    >
+                  </li>
+                  <li>
+                    <span style="color: #ceff1a">+</span>Arduino Board<span
+                      style="color: #ceff1a"
+                      >.</span
+                    >
+                  </li>
+                  <li>
+                    <span style="color: #ceff1a">+</span>3x Temp Sensors<span
+                      style="color: #ceff1a"
+                      >.</span
+                    >
+                  </li>
+                  <li>
+                    <span style="color: #ceff1a">+</span>TDS Sensor<span
+                      style="color: #ceff1a"
+                      >.</span
+                    >
+                  </li>
+                  <li>
+                    <span style="color: #ceff1a">+</span
+                    >Node/Express/MongoDB/Pug<span style="color: #ceff1a"
+                      >.</span
+                    >
+                  </li>
+                </ul>
+                <a href="https://github.com/tid213/greencapz-project"
+                  >Project Details</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project5_card">
+            <div id="project1-header">
+              <p>Wood Projects</p>
+            </div>
+            <div id="project_item5">
+              <img src="./images/woodwork.jpg" alt="" />
+              <div class="project_info5">
+                <p>
+                  Some of the stuff I've built includes: Dog Beds, Shotglass
+                  Storage Shelves, Floating Bed Frames, and Floating TV Shelves.
+                </p>
+                <ul>
+                  <li>
+                    <span style="color: white">Here's some examples:</span>
+                  </li>
+                </ul>
+                <a href="https://tid213.github.io/wood-crafts/">Wood Crafts</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="resume_class" id="resume">
+        <div id="resume_header">
+          <h3>Resume<span style="color: lime">.</span></h3>
+          <embed
+            src="./images/Joshua_Tidwell_Resume.PDF"
+            type=""
+            width="800px"
+            height="650px"
+          />
+        </div>
+      </section>
+    </div>
+  </body>
+  <script>
+    $(document).ready(function () {
+      $("#project_item1").hover(
+        function () {
+          $(".project_info1").css("display", "flex");
+        },
+        function () {
+          $(".project_info1").css("display", "none");
+        }
+      );
+      $("#project_item2").hover(
+        function () {
+          $(".project_info2").css("display", "flex");
+        },
+        function () {
+          $(".project_info2").css("display", "none");
+        }
+      );
+      $("#project_item3").hover(
+        function () {
+          $(".project_info3").css("display", "flex");
+        },
+        function () {
+          $(".project_info3").css("display", "none");
+        }
+      );
+      $("#project_item4").hover(
+        function () {
+          $(".project_info4").css("display", "flex");
+        },
+        function () {
+          $(".project_info4").css("display", "none");
+        }
+      );
+      $("#project_item5").hover(
+        function () {
+          $(".project_info5").css("display", "flex");
+        },
+        function () {
+          $(".project_info5").css("display", "none");
+        }
+      );
+    });
+  </script>
+</html>
